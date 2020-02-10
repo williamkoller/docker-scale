@@ -3,7 +3,7 @@ services:
   web:
     image: williamkoller/python-docker
     deploy:
-      replicas: 10
+      replicas: 14
       resources:
         limits:
           cpus: "0.1"
